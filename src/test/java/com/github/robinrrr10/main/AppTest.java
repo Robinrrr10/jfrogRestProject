@@ -21,4 +21,12 @@ public class AppTest {
 		Assert.assertTrue(app.getTrue());
 		System.out.println("Ending test one");
 	}
+	
+	@Test
+	public void testOneAndTwo() {
+		System.out.println("Staring test three");
+		Assert.assertEquals(app.getOne(), 1);
+		Assert.assertTrue(app.getTrue());
+		System.out.println("Ending test three");
+	}
 }
