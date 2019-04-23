@@ -11,4 +11,12 @@ public class App
         System.out.println( "Hello World!" );
         System.out.println("Working jfrog");
     }
+    
+    public int getOne() {
+    	return 1;
+    }
+    
+    public boolean getTrue() {
+    	return true;
+    }
 }

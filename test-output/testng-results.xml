@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="74" started-at="2019-04-23T18:01:13Z" finished-at="2019-04-23T18:01:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="74" started-at="2019-04-23T18:01:13Z" finished-at="2019-04-23T18:01:13Z">
+      <class name="com.github.robinrrr10.main.AppTest">
+        <test-method status="PASS" signature="testOne()[pri:0, instance:com.github.robinrrr10.main.AppTest@23ceabc1]" name="testOne" duration-ms="20" started-at="2019-04-23T18:01:13Z" finished-at="2019-04-23T18:01:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="testTrue()[pri:0, instance:com.github.robinrrr10.main.AppTest@23ceabc1]" name="testTrue" duration-ms="3" started-at="2019-04-23T18:01:13Z" finished-at="2019-04-23T18:01:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTrue -->
+      </class> <!-- com.github.robinrrr10.main.AppTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,38 +1,24 @@
 package com.github.robinrrr10.main;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import org.testng.annotations.Test;
 
-/**
- * Unit test for simple App.
- */
-public class AppTest 
-    extends TestCase
-{
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
-    {
-        super( testName );
-    }
+import junit.framework.Assert;
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
-    }
-
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
-    }
+public class AppTest {
+	
+	App app = new App();
+	
+	@Test
+	public void testOne() {
+		System.out.println("Staring test one");
+		Assert.assertEquals(app.getOne(), 1);
+		System.out.println("Ending test one");
+	}
+	
+	@Test
+	public void testTrue() {
+		System.out.println("Staring test two");
+		Assert.assertTrue(app.getTrue());
+		System.out.println("Ending test one");
+	}
 }
